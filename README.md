@@ -1,4 +1,4 @@
-# Selenium Automation Portfolio (自動化測試作品集)
+# Selenium Automation Portfolio
 
 這個專案展示了我使用 **C#** 與 **Selenium WebDriver** 建立的自動化測試與爬蟲架構。
 內容包含針對「練習網站」的標準測試流程，以及針對「真實電商網站 (PChome)」的自動化查價實戰。
