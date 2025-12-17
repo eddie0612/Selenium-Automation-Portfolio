@@ -16,6 +16,7 @@ namespace SauceDemoTests
 			// 設定瀏覽器
 			ChromeOptions options = new ChromeOptions();
 			options.AddArgument("--incognito"); // 無痕模式
+			options.AddArgument("--headless");
 
 			driver = new ChromeDriver(options);
 			driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);

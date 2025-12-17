@@ -21,6 +21,7 @@ namespace PChomeTests
 			// 設定瀏覽器
 			ChromeOptions options = new ChromeOptions();
 			options.AddArgument("--incognito"); // 無痕模式
+			options.AddArgument("--headless");
 
 			// 啟動司機
 			driver = new ChromeDriver(options);
